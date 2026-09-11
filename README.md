@@ -2,7 +2,7 @@
 
 This repo contains the Java basic code I learned during a training program. After that training, I started learning Java as a beginner. Each file below covers one core concept, written and tested while working through daily exercises (`Day_1` → `Day_5`).
 
-## 📁 Files in this repo
+## Files in this repo
 
 1. **`ASCII.java`** — Demonstrates ASCII character manipulation: converting between `char` and its numeric ASCII value.
 2. **`Do_While_loop.java`** — Implements a `do-while` loop based calculator and a bill/menu system to practice loop-controlled repeated input.
@@ -11,9 +11,9 @@ This repo contains the Java basic code I learned during a training program. Afte
 5. **`Patterns.java`** — Prints number/star patterns using nested loops, a classic exercise for practicing loop logic.
 6. **`Type_casting.java`** — Explains `type casting` in Java: implicit (widening) and explicit (narrowing) conversion between data types.
 
-> 📝 Note: Package declarations were commented out in some files (`Operation.java`, `Patterns.java`) since they were run as standalone files outside a package structure.
+>  `Note`: Package declarations were commented out in some files (`Operation.java`, `Patterns.java`) since they were run as standalone files outside a package structure.
 
-## 🗂 Project structure (Eclipse)
+## Project structure (Eclipse)
 
 ```
 Training
@@ -27,7 +27,7 @@ Training
 
 
 
-## ⚙️ Setting up in Eclipse — Project, Package, Class
+## Setting up in Eclipse — Project, Package, Class
 
 ### 🔹 What is a Project?
 A **Project** is the top-level container for everything related to your program — source files, libraries (`JRE System Library`), build settings, and configuration files, all managed as one unit inside your Eclipse `workspace`. Each project gets its own folder on disk and its own build path, so different projects don't interfere with each other. Think of it as the "whole app" wrapper: one project can contain many packages, and each package can contain many classes.
@@ -46,13 +46,13 @@ A **Class** is a blueprint that defines the structure and behavior of an object 
 4. **Run a Class** — right-click the `.java` file → `Run As` → `Java Application`. Eclipse compiles and executes the `main` method inside that class.
 5. **`module-info.java`** — an optional file at the `src` root that declares the project as a Java module (JPMS), listing which packages it exports/requires. Not required for simple learning projects, but Eclipse adds it automatically for modular Java projects.
 
-## ✅ Prerequisites
+## Prerequisites
 
 - **JDK 21** (or compatible) installed
 - **Eclipse IDE** for Java Developers
 - Basic familiarity with the Eclipse workspace and Package Explorer
 
-## 🎯 Topics covered so far
+## Topics covered so far
 
 - ASCII value conversion
 - Loops: `for`, `do-while`
