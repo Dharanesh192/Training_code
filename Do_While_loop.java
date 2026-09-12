@@ -1,4 +1,4 @@
-// package Day_4; -> Your package name
+// package Loops; -> Your package name
 import java.util.Scanner;
 public class Do_while_loop {
 	public static void main(String[] args) {
