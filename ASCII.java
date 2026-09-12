@@ -1,4 +1,4 @@
-// package Day_2; -> Your package name
+// package Bacis; -> Your package name
 import java.util.Scanner;
 public class ASCII {
 	public static void main(String [] args) {
